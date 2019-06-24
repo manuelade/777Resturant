@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="/fontawesome/css/all.css" rel="stylesheet" />
+    <!--load all styles -->
+
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/nav.css">
     <title>Resturant Site</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <!-- Navaigation wrapper-->
-    <div>   
-        <div class="contact-hours-wrapper">
-            555 555 5555
-            10 AM - MIDNIGHT
-        </div>     
-        <div>
-            <div class="nav-link">
-                <a href="index.html">Home</a>
-            </div>
-            <div class="nav-link">
-                <a href="about.html">About</a>
-            </div>
-            <div class="nav-link">
-                <a href="menu.html">Menu</a>
-            </div>
-            <div class="nav-link">
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>   
-             
-        <div class="address-wrapper">
-            123 Any Street
-            Scottsdale, AZ, 85251
+    <div class="navigation-wrapper">
+      <div class="left-column">
+        <div class="icon">
+          <i class="fas fa-phone"></i>
         </div>
+        <div class="contact-hours-wrapper">
+          <div class="phone">
+            801 837 7928
+          </div>
+          <div class="hours">
+            10 AM - MIDNIGHT
+          </div>
+        </div>
+      </div>
+
+      <div class="center-column">
+        <div class="banner-image">
+          <img src="img/logo.png" alt="Logo" />
+        </div>
+        <div class="links-wrapper">
+          <div class="nav-link">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="nav-link">
+            <a href="about.html">About</a>
+          </div>
+          <div class="nav-link">
+            <a href="menu.html">Menu</a>
+          </div>
+          <div class="nav-link">
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-column">
+        <div class="address-wrapper">          
+         <a href="contact.html"> 
+             1400 West Morning Vista Road Lehi, 
+             <br> Utah, 84043 </a>
+        </div>
+        <div class="contact-icon">
+                <a href="contact.html">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
